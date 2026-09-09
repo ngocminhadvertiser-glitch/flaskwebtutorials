@@ -1,0 +1,6 @@
+{
+  "name": "Flask Web Learning",
+  "description": "Nền tảng học liệu số trực tuyến môn Lập trình Flask Web dành cho sinh viên và giảng viên",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
