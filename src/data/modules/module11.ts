@@ -8,12 +8,12 @@ export const MODULE_11: Module = {
   icon: 'Bug',
   lessons: [
     {
-      id: 'lesson-58',
+      id: 'lesson-17',
       moduleId: 'module-11',
-      lessonNumber: 58,
-      title: 'Bài 58. Xử lý lỗi 404 và 500 với @app.errorhandler',
+      lessonNumber: 17,
+      title: 'Bài 17. Xử lý lỗi 404 và 500 với @app.errorhandler',
       slug: 'xu-ly-loi-404-va-500-voi-errorhandler',
-      orderIndex: 58,
+      orderIndex: 17,
       isPublished: true,
       objectives: [
         'Hiểu tầm quan trọng của trang báo lỗi thân thiện với người dùng (User-friendly error pages)',
@@ -80,7 +80,7 @@ def internal_server_error(error):
         ]
       },
       quickCheck: {
-        id: 'qc-58',
+        id: 'qc-17',
         question: 'Điều gì xảy ra nếu bạn viết `return render_template("404.html")` mà quên ghi `, 404` ở cuối?',
         options: [
           { letter: 'A', text: 'Ứng dụng bị sập ngay lập tức' },
@@ -92,7 +92,7 @@ def internal_server_error(error):
         explanation: 'Chính xác! Nếu không chỉ rõ status code, Flask mặc định gán 200 OK. Luôn nhớ thêm `, 404` ở cuối hàm xử lý lỗi.'
       },
       practice: {
-        id: 'prac-58',
+        id: 'prac-17',
         title: 'Thiết kế trang 404 chuẩn giao diện EdTech',
         taskDescription: 'Tạo template templates/errors/404.html kế thừa base.html với thông điệp thân thiện và nút quay về danh sách bài học.',
         requirements: [
@@ -119,8 +119,8 @@ def internal_server_error(error):
       },
       quizzes: [
         {
-          id: 'q58-1',
-          lessonId: 'lesson-58',
+          id: 'q17-1',
+          lessonId: 'lesson-17',
           questionText: 'Decorator nào trong Flask được dùng để bắt và xử lý mã lỗi HTTP tùy biến?',
           options: [
             { id: 'opt-1', letter: 'A', text: '@app.catch()', isCorrect: false },
@@ -133,8 +133,8 @@ def internal_server_error(error):
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q58-2',
-          lessonId: 'lesson-58',
+          id: 'q17-2',
+          lessonId: 'lesson-17',
           questionText: 'Hàm nào của Flask được dùng để chủ động kích hoạt (ném ra) một mã lỗi HTTP lập tức (ví dụ: cấm truy cập 403)?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'stop()', isCorrect: false },
@@ -147,8 +147,8 @@ def internal_server_error(error):
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q58-3',
-          lessonId: 'lesson-58',
+          id: 'q17-3',
+          lessonId: 'lesson-17',
           questionText: 'Tại sao trên máy chủ Production, biến `DEBUG` PHẢI luôn được thiết lập là `False`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Vì bật Debug cho phép bất kỳ ai xem traceback và có thể chạy mã lệnh tùy ý trên server qua Werkzeug PIN (lỗ hổng Remote Code Execution)', isCorrect: true },
@@ -161,8 +161,8 @@ def internal_server_error(error):
           difficulty: 'Vận dụng'
         },
         {
-          id: 'q58-4',
-          lessonId: 'lesson-58',
+          id: 'q17-4',
+          lessonId: 'lesson-17',
           questionText: 'Để ghi nhật ký (logging) các lỗi xảy ra trong ứng dụng vào file để giảng viên/quản trị viên tiện xem lại, Flask tích hợp sẵn module nào?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'app.logger (dựa trên module logging chuẩn của Python)', isCorrect: true },
@@ -175,8 +175,8 @@ def internal_server_error(error):
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q58-5',
-          lessonId: 'lesson-58',
+          id: 'q17-5',
+          lessonId: 'lesson-17',
           questionText: 'Mã lỗi HTTP 500 (Internal Server Error) thường biểu thị điều gì trong code Flask?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Người dùng gõ sai mật khẩu', isCorrect: false },

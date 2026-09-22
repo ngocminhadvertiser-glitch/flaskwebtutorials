@@ -8,12 +8,12 @@ export const MODULE_3: Module = {
   icon: 'Zap',
   lessons: [
     {
-      id: 'lesson-11',
+      id: 'lesson-7',
       moduleId: 'module-3',
-      lessonNumber: 11,
-      title: 'Bài 11. Đối tượng request & Query Parameters',
+      lessonNumber: 7,
+      title: 'Bài 7. Đối tượng request & Query Parameters',
       slug: 'doi-tuong-request-va-query-parameters',
-      orderIndex: 11,
+      orderIndex: 7,
       isPublished: true,
       objectives: [
         'Hiểu cơ chế Request Context và đối tượng request trong Flask',
@@ -110,8 +110,8 @@ def filter_students():
       },
       quizzes: [
         {
-          id: 'q11-1',
-          lessonId: 'lesson-11',
+          id: 'q7-1',
+          lessonId: 'lesson-7',
           questionText: 'Trong Flask, dữ liệu Query Parameters trên URL (sau dấu ?) được lấy qua thuộc tính nào của `request`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'request.form', isCorrect: false },
@@ -124,8 +124,8 @@ def filter_students():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q11-2',
-          lessonId: 'lesson-11',
+          id: 'q7-2',
+          lessonId: 'lesson-7',
           questionText: 'Nếu người dùng truy cập `/api/data` mà không truyền tham số `limit`, kết quả của `request.args.get("limit", 10, type=int)` là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Lỗi KeyError', isCorrect: false },
@@ -138,8 +138,8 @@ def filter_students():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q11-3',
-          lessonId: 'lesson-11',
+          id: 'q7-3',
+          lessonId: 'lesson-7',
           questionText: 'Đối tượng `request` trong Flask hoạt động theo cơ chế nào để không bị nhầm lẫn giữa các người dùng truy cập cùng lúc?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Global Variable thông thường', isCorrect: false },
@@ -152,8 +152,8 @@ def filter_students():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q11-4',
-          lessonId: 'lesson-11',
+          id: 'q7-4',
+          lessonId: 'lesson-7',
           questionText: 'Để lấy danh sách nhiều giá trị cùng một khóa (ví dụ: `?tag=python&tag=flask&tag=web`), ta dùng hàm nào của `request.args`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'request.args.get()', isCorrect: false },
@@ -166,8 +166,8 @@ def filter_students():
           difficulty: 'Vận dụng'
         },
         {
-          id: 'q11-5',
-          lessonId: 'lesson-11',
+          id: 'q7-5',
+          lessonId: 'lesson-7',
           questionText: 'Thuộc tính nào của `request` cho biết phương thức HTTP mà client gửi lên (ví dụ: "GET", "POST")?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'request.action', isCorrect: false },
@@ -182,12 +182,12 @@ def filter_students():
       ]
     },
     {
-      id: 'lesson-16',
+      id: 'lesson-8',
       moduleId: 'module-3',
-      lessonNumber: 16,
-      title: 'Bài 16. Xử lý GET và POST trong cùng một Route',
+      lessonNumber: 8,
+      title: 'Bài 8. Xử lý GET và POST trong cùng một Route',
       slug: 'xu-ly-get-va-post-trong-cung-mot-route',
-      orderIndex: 16,
+      orderIndex: 8,
       isPublished: true,
       objectives: [
         'Khai báo tham số `methods=["GET", "POST"]` trong decorator @app.route',
@@ -308,8 +308,8 @@ def feedback():
       },
       quizzes: [
         {
-          id: 'q16-1',
-          lessonId: 'lesson-16',
+          id: 'q8-1',
+          lessonId: 'lesson-8',
           questionText: 'Nếu người dùng gửi yêu cầu POST đến một route chỉ khai báo `@app.route("/hello")`, mã lỗi HTTP nào sẽ trả về?',
           options: [
             { id: 'opt-1', letter: 'A', text: '404 Not Found', isCorrect: false },
@@ -322,8 +322,8 @@ def feedback():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q16-2',
-          lessonId: 'lesson-16',
+          id: 'q8-2',
+          lessonId: 'lesson-8',
           questionText: 'Để lấy dữ liệu gửi từ một HTML Form có `method="POST"`, ta truy xuất qua thuộc tính nào của `request`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'request.args', isCorrect: false },
@@ -336,8 +336,8 @@ def feedback():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q16-3',
-          lessonId: 'lesson-16',
+          id: 'q8-3',
+          lessonId: 'lesson-8',
           questionText: 'Khóa (key) trong `request.form.get("key")` tương ứng với thuộc tính nào của thẻ HTML input trong form?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Thuộc tính id', isCorrect: false },
@@ -350,8 +350,8 @@ def feedback():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q16-4',
-          lessonId: 'lesson-16',
+          id: 'q8-4',
+          lessonId: 'lesson-8',
           questionText: 'Mô hình PRG (Post/Redirect/Get) trong lập trình web nhằm giải quyết vấn đề gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Tăng độ phân giải hình ảnh', isCorrect: false },
@@ -364,8 +364,8 @@ def feedback():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q16-5',
-          lessonId: 'lesson-16',
+          id: 'q8-5',
+          lessonId: 'lesson-8',
           questionText: 'Hàm nào của Flask được dùng để chuyển hướng người dùng sang một trang khác sau khi xử lý POST thành công?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'forward()', isCorrect: false },

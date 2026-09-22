@@ -8,12 +8,12 @@ export const MODULE_9: Module = {
   icon: 'FolderTree',
   lessons: [
     {
-      id: 'lesson-48',
+      id: 'lesson-15',
       moduleId: 'module-9',
-      lessonNumber: 48,
-      title: 'Bài 48. Sử dụng Blueprint để phân chia Route',
+      lessonNumber: 15,
+      title: 'Bài 15. Sử dụng Blueprint để phân chia Route',
       slug: 'su-dung-blueprint-de-phan-chia-route',
-      orderIndex: 48,
+      orderIndex: 15,
       isPublished: true,
       objectives: [
         'Hiểu tại sao một dự án lớn không thể để toàn bộ route trong một file app.py duy nhất',
@@ -113,8 +113,8 @@ app.register_blueprint(admin_bp, url_prefix="/admin")`,
       },
       quizzes: [
         {
-          id: 'q48-1',
-          lessonId: 'lesson-48',
+          id: 'q15-1',
+          lessonId: 'lesson-15',
           questionText: 'Trong Flask, Blueprint được sử dụng chủ yếu nhằm mục đích gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Nén kích thước ảnh website', isCorrect: false },
@@ -127,8 +127,8 @@ app.register_blueprint(admin_bp, url_prefix="/admin")`,
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q48-2',
-          lessonId: 'lesson-48',
+          id: 'q15-2',
+          lessonId: 'lesson-15',
           questionText: 'Lệnh nào sau đây dùng để kích hoạt (đăng ký) một Blueprint vào ứng dụng Flask chính?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'app.include_blueprint()', isCorrect: false },
@@ -141,8 +141,8 @@ app.register_blueprint(admin_bp, url_prefix="/admin")`,
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q48-3',
-          lessonId: 'lesson-48',
+          id: 'q15-3',
+          lessonId: 'lesson-15',
           questionText: 'Mô hình thiết kế "Application Factory" trong Flask hoạt động như thế nào?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Khởi tạo đối tượng `app` bên trong một hàm (ví dụ: `def create_app():`), cho phép tạo nhiều instance phục vụ kiểm thử và cấu hình linh hoạt', isCorrect: true },
@@ -155,8 +155,8 @@ app.register_blueprint(admin_bp, url_prefix="/admin")`,
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q48-4',
-          lessonId: 'lesson-48',
+          id: 'q15-4',
+          lessonId: 'lesson-15',
           questionText: 'Khi gọi hàm `url_for()` trỏ đến view function trong một Blueprint, quy ước đặt tên endpoint là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Chỉ cần tên hàm', isCorrect: false },
@@ -169,8 +169,8 @@ app.register_blueprint(admin_bp, url_prefix="/admin")`,
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q48-5',
-          lessonId: 'lesson-48',
+          id: 'q15-5',
+          lessonId: 'lesson-15',
           questionText: 'Thư viện nào của Python thường dùng để nạp các cấu hình nhạy cảm (như SECRET_KEY, DATABASE_URL) từ file `.env`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'python-dotenv', isCorrect: true },
@@ -195,12 +195,12 @@ export const MODULE_10: Module = {
   icon: 'Cpu',
   lessons: [
     {
-      id: 'lesson-53',
+      id: 'lesson-16',
       moduleId: 'module-10',
-      lessonNumber: 53,
-      title: 'Bài 53. JSON Response và hàm jsonify()',
+      lessonNumber: 16,
+      title: 'Bài 16. JSON Response và hàm jsonify()',
       slug: 'json-response-va-ham-jsonify',
-      orderIndex: 53,
+      orderIndex: 16,
       isPublished: true,
       objectives: [
         'Hiểu định dạng dữ liệu chuẩn JSON (JavaScript Object Notation)',
@@ -319,8 +319,8 @@ def get_student(student_id):
       },
       quizzes: [
         {
-          id: 'q53-1',
-          lessonId: 'lesson-53',
+          id: 'q16-1',
+          lessonId: 'lesson-16',
           questionText: 'Header HTTP nào được `jsonify()` tự động thiết lập trong phản hồi trả về cho client?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Content-Type: text/html', isCorrect: false },
@@ -333,8 +333,8 @@ def get_student(student_id):
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q53-2',
-          lessonId: 'lesson-53',
+          id: 'q16-2',
+          lessonId: 'lesson-16',
           questionText: 'Mã trạng thái HTTP nào biểu thị một tài nguyên mới vừa được tạo thành công trên máy chủ?',
           options: [
             { id: 'opt-1', letter: 'A', text: '200 OK', isCorrect: false },
@@ -347,8 +347,8 @@ def get_student(student_id):
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q53-3',
-          lessonId: 'lesson-53',
+          id: 'q16-3',
+          lessonId: 'lesson-16',
           questionText: 'Trong chuẩn thiết kế RESTful API, phương thức HTTP nào thường được dùng để cập nhật một phần dữ liệu của tài nguyên?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'PATCH', isCorrect: true },
@@ -361,8 +361,8 @@ def get_student(student_id):
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q53-4',
-          lessonId: 'lesson-53',
+          id: 'q16-4',
+          lessonId: 'lesson-16',
           questionText: 'Nếu client gửi một request không có header `Content-Type: application/json`, `request.get_json()` sẽ trả về gì mặc định?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Lỗi ném ra Exception', isCorrect: false },
@@ -375,8 +375,8 @@ def get_student(student_id):
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q53-5',
-          lessonId: 'lesson-53',
+          id: 'q16-5',
+          lessonId: 'lesson-16',
           questionText: 'CORS (Cross-Origin Resource Sharing) là gì và thư viện Flask nào hỗ trợ kích hoạt CORS dễ dàng?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Cơ chế bảo mật trình duyệt chặn gọi API giữa 2 domain khác nhau; giải quyết bằng thư viện `flask-cors`', isCorrect: true },

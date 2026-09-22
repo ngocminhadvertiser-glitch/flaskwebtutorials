@@ -8,12 +8,12 @@ export const MODULE_2: Module = {
   icon: 'Compass',
   lessons: [
     {
-      id: 'lesson-6',
+      id: 'lesson-4',
       moduleId: 'module-2',
-      lessonNumber: 6,
-      title: 'Bài 6. Route cơ bản',
+      lessonNumber: 4,
+      title: 'Bài 4. Route cơ bản trong Flask',
       slug: 'route-co-ban',
-      orderIndex: 6,
+      orderIndex: 4,
       isPublished: true,
       objectives: [
         'Hiểu bản chất của Route trong ứng dụng web',
@@ -116,8 +116,8 @@ def contact():
       },
       quizzes: [
         {
-          id: 'q6-1',
-          lessonId: 'lesson-6',
+          id: 'q4-1',
+          lessonId: 'lesson-4',
           questionText: 'Trong Flask, điều gì xảy ra nếu route khai báo là `@app.route("/about")` và người dùng truy cập URL `/about/`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Flask vẫn hiển thị bình thường', isCorrect: false },
@@ -130,8 +130,8 @@ def contact():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q6-2',
-          lessonId: 'lesson-6',
+          id: 'q4-2',
+          lessonId: 'lesson-4',
           questionText: 'Lợi ích của việc khai báo nhiều decorator @app.route() cho cùng một view function là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Tăng gấp đôi tốc độ tải trang', isCorrect: false },
@@ -144,8 +144,8 @@ def contact():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q6-3',
-          lessonId: 'lesson-6',
+          id: 'q4-3',
+          lessonId: 'lesson-4',
           questionText: 'Thành phần nào chịu trách nhiệm biên dịch và khớp nối URL trong kiến trúc lõi của Flask?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Jinja2 Parser', isCorrect: false },
@@ -158,8 +158,8 @@ def contact():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q6-4',
-          lessonId: 'lesson-6',
+          id: 'q4-4',
+          lessonId: 'lesson-4',
           questionText: 'Mã trạng thái HTTP trả về mặc định khi một view function chạy thành công trong Flask là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: '201 Created', isCorrect: false },
@@ -172,8 +172,8 @@ def contact():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q6-5',
-          lessonId: 'lesson-6',
+          id: 'q4-5',
+          lessonId: 'lesson-4',
           questionText: 'Nếu muốn chỉ định rõ mã trạng thái trả về là 201 cùng với chuỗi kết quả, ta viết như thế nào?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'return "Thành công", 201', isCorrect: true },
@@ -188,12 +188,12 @@ def contact():
       ]
     },
     {
-      id: 'lesson-7',
+      id: 'lesson-5',
       moduleId: 'module-2',
-      lessonNumber: 7,
-      title: 'Bài 7. Dynamic Routes & URL Converters',
+      lessonNumber: 5,
+      title: 'Bài 5. Dynamic Routes & URL Converters',
       slug: 'dynamic-routes-va-url-converters',
-      orderIndex: 7,
+      orderIndex: 5,
       isPublished: true,
       objectives: [
         'Nắm vững cú pháp tạo biến trong route `<variable_name>`',
@@ -286,8 +286,8 @@ def check_score(name, grade):
       },
       quizzes: [
         {
-          id: 'q7-1',
-          lessonId: 'lesson-7',
+          id: 'q5-1',
+          lessonId: 'lesson-5',
           questionText: 'Để chỉ định một biến URL trong Flask bắt buộc phải là số nguyên dương, cú pháp nào đúng?',
           options: [
             { id: 'opt-1', letter: 'A', text: '<integer:id>', isCorrect: false },
@@ -300,8 +300,8 @@ def check_score(name, grade):
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q7-2',
-          lessonId: 'lesson-7',
+          id: 'q5-2',
+          lessonId: 'lesson-5',
           questionText: 'Kiểu converter nào cho phép nhận chuỗi chứa cả dấu gạch chéo `/` (ví dụ đường dẫn thư mục)?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'string', isCorrect: false },
@@ -314,8 +314,8 @@ def check_score(name, grade):
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q7-3',
-          lessonId: 'lesson-7',
+          id: 'q5-3',
+          lessonId: 'lesson-5',
           questionText: 'Tên tham số truyền vào view function phải như thế nào so với tên biến khai báo trong @app.route()?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Bắt buộc phải trùng tên chính xác', isCorrect: true },
@@ -328,8 +328,8 @@ def check_score(name, grade):
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q7-4',
-          lessonId: 'lesson-7',
+          id: 'q5-4',
+          lessonId: 'lesson-5',
           questionText: 'Nếu không ghi converter (ví dụ chỉ ghi `@app.route("/user/<name>")`), Flask mặc định dùng converter nào?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'int', isCorrect: false },
@@ -342,8 +342,8 @@ def check_score(name, grade):
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q7-5',
-          lessonId: 'lesson-7',
+          id: 'q5-5',
+          lessonId: 'lesson-5',
           questionText: 'Để tránh lỗi bảo mật XSS khi hiển thị dữ liệu do người dùng đưa vào URL ra màn hình HTML, ta nên làm gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Dùng markupsafe.escape() hoặc render qua Jinja2 template tự động escape', isCorrect: true },
@@ -358,12 +358,12 @@ def check_score(name, grade):
       ]
     },
     {
-      id: 'lesson-9',
+      id: 'lesson-6',
       moduleId: 'module-2',
-      lessonNumber: 9,
-      title: 'Bài 9. Xây dựng liên kết với url_for()',
+      lessonNumber: 6,
+      title: 'Bài 6. Xây dựng liên kết với url_for()',
       slug: 'xay-dung-lien-ket-voi-url-for',
-      orderIndex: 9,
+      orderIndex: 6,
       isPublished: true,
       objectives: [
         'Hiểu vì sao không nên "hard-code" URL tĩnh trong ứng dụng',
@@ -461,8 +461,8 @@ def student_detail(student_id):
       },
       quizzes: [
         {
-          id: 'q9-1',
-          lessonId: 'lesson-9',
+          id: 'q6-1',
+          lessonId: 'lesson-6',
           questionText: 'Tại sao sử dụng url_for() lại tốt hơn việc viết cứng (hard-code) URL trong mã nguồn?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Khi thay đổi đường dẫn URL, ta chỉ cần sửa decorator mà không phải tìm sửa từng file trong dự án', isCorrect: true },
@@ -475,8 +475,8 @@ def student_detail(student_id):
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q9-2',
-          lessonId: 'lesson-9',
+          id: 'q6-2',
+          lessonId: 'lesson-6',
           questionText: 'Nếu truyền một tham số mà route KHÔNG định nghĩa vào `url_for("index", page=2, filter="active")`, Flask sẽ xử lý thế nào?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Báo lỗi KeyError', isCorrect: false },
@@ -489,8 +489,8 @@ def student_detail(student_id):
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q9-3',
-          lessonId: 'lesson-9',
+          id: 'q6-3',
+          lessonId: 'lesson-6',
           questionText: 'Cú pháp chuẩn để sinh URL trỏ tới file CSS `css/style.css` nằm trong thư mục static là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'url_for("css", file="style.css")', isCorrect: false },
@@ -503,8 +503,8 @@ def student_detail(student_id):
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q9-4',
-          lessonId: 'lesson-9',
+          id: 'q6-4',
+          lessonId: 'lesson-6',
           questionText: 'Nếu muốn sinh ra URL tuyệt đối có cả giao thức và tên miền (ví dụ: https://example.com/user/1), ta thêm tham số nào vào url_for()?',
           options: [
             { id: 'opt-1', letter: 'A', text: '_external=True', isCorrect: true },
@@ -517,8 +517,8 @@ def student_detail(student_id):
           difficulty: 'Vận dụng'
         },
         {
-          id: 'q9-5',
-          lessonId: 'lesson-9',
+          id: 'q6-5',
+          lessonId: 'lesson-6',
           questionText: 'Điều gì xảy ra nếu bạn gọi url_for("khong_ton_tai") với một tên hàm không có trong ứng dụng?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Flask trả về chuỗi rỗng', isCorrect: false },

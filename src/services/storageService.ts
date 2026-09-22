@@ -197,8 +197,8 @@ export const storageService = {
       const defaultNotes: Note[] = [
         {
           id: 'note-1',
-          lessonId: 'lesson-4',
-          lessonTitle: 'Bài 4. Tạo Flask Application đầu tiên',
+          lessonId: 'lesson-2',
+          lessonTitle: 'Bài 2. Tạo Flask Application đầu tiên',
           content: 'Lưu ý cốt lõi: app = Flask(__name__) giúp Flask tự tìm thư mục templates/ và static/. Khi test phải dùng debug=True.',
           updatedAt: '2026-09-08'
         }
@@ -247,8 +247,8 @@ export const storageService = {
       const defaultBm: Bookmark[] = [
         {
           id: 'bm-1',
-          lessonId: 'lesson-4',
-          lessonTitle: 'Bài 4. Tạo Flask Application đầu tiên',
+          lessonId: 'lesson-2',
+          lessonTitle: 'Bài 2. Tạo Flask Application đầu tiên',
           moduleTitle: 'MODULE 01 – Làm quen với Flask',
           createdAt: '2026-09-08'
         }

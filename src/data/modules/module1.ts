@@ -191,12 +191,12 @@ def index():
       ]
     },
     {
-      id: 'lesson-4',
+      id: 'lesson-2',
       moduleId: 'module-1',
-      lessonNumber: 4,
-      title: 'Bài 4. Tạo Flask Application đầu tiên',
+      lessonNumber: 2,
+      title: 'Bài 2. Tạo Flask Application đầu tiên',
       slug: 'tao-flask-application-dau-tien',
-      orderIndex: 4,
+      orderIndex: 2,
       isPublished: true,
       objectives: [
         'Khởi tạo thành công một đối tượng Flask instance với biến __name__',
@@ -335,8 +335,8 @@ if __name__ == "__main__":
       },
       quizzes: [
         {
-          id: 'q4-1',
-          lessonId: 'lesson-4',
+          id: 'q2-1',
+          lessonId: 'lesson-2',
           questionText: 'Flask sử dụng decorator nào sau đây để liên kết một URL với một view function?',
           options: [
             { id: 'opt-1', letter: 'A', text: '@flask.url()', isCorrect: false },
@@ -349,8 +349,8 @@ if __name__ == "__main__":
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q4-2',
-          lessonId: 'lesson-4',
+          id: 'q2-2',
+          lessonId: 'lesson-2',
           questionText: 'Trong câu lệnh `app = Flask(__name__)`, từ khóa `__name__` là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Một chuỗi string do người dùng tùy ý nhập', isCorrect: false },
@@ -363,8 +363,8 @@ if __name__ == "__main__":
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q4-3',
-          lessonId: 'lesson-4',
+          id: 'q2-3',
+          lessonId: 'lesson-2',
           questionText: 'Nếu bạn truy cập một URL chưa được định nghĩa bằng @app.route(), Flask sẽ trả về mã lỗi HTTP nào?',
           options: [
             { id: 'opt-1', letter: 'A', text: '200 OK', isCorrect: false },
@@ -377,8 +377,8 @@ if __name__ == "__main__":
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q4-4',
-          lessonId: 'lesson-4',
+          id: 'q2-4',
+          lessonId: 'lesson-2',
           questionText: 'Mục đích chính của tham số `debug=True` trong câu lệnh `app.run(debug=True)` là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Tự động sao lưu cơ sở dữ liệu mỗi 5 phút', isCorrect: false },
@@ -391,8 +391,8 @@ if __name__ == "__main__":
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q4-5',
-          lessonId: 'lesson-4',
+          id: 'q2-5',
+          lessonId: 'lesson-2',
           questionText: 'Điều gì xảy ra nếu view function trong Flask không có lệnh `return` hoặc trả về `None`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Flask tự động render trang trắng', isCorrect: false },
@@ -407,12 +407,12 @@ if __name__ == "__main__":
       ]
     },
     {
-      id: 'lesson-5',
+      id: 'lesson-3',
       moduleId: 'module-1',
-      lessonNumber: 5,
-      title: 'Bài 5. Chạy Flask Development Server',
+      lessonNumber: 3,
+      title: 'Bài 3. Chạy Flask Development Server',
       slug: 'chay-flask-development-server',
-      orderIndex: 5,
+      orderIndex: 3,
       isPublished: true,
       objectives: [
         'Biết cách khởi động server bằng cả 2 cách: `flask run` và `python app.py`',
@@ -521,8 +521,8 @@ if __name__ == "__main__":
       },
       quizzes: [
         {
-          id: 'q5-1',
-          lessonId: 'lesson-5',
+          id: 'q3-1',
+          lessonId: 'lesson-3',
           questionText: 'Để chạy ứng dụng Flask bằng công cụ CLI chính thức, câu lệnh nào sau đây là chuẩn xác?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'flask run', isCorrect: true },
@@ -535,8 +535,8 @@ if __name__ == "__main__":
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q5-2',
-          lessonId: 'lesson-5',
+          id: 'q3-2',
+          lessonId: 'lesson-3',
           questionText: 'Biến môi trường nào dùng để chỉ định file mã nguồn chính khi dùng lệnh `flask run`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'PYTHON_ROOT', isCorrect: false },
@@ -549,8 +549,8 @@ if __name__ == "__main__":
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q5-3',
-          lessonId: 'lesson-5',
+          id: 'q3-3',
+          lessonId: 'lesson-3',
           questionText: 'Tại sao development server của Flask không nên dùng trên môi trường Production thực tế?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Vì Flask không hỗ trợ kết nối mạng Internet', isCorrect: false },
@@ -563,8 +563,8 @@ if __name__ == "__main__":
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q5-4',
-          lessonId: 'lesson-5',
+          id: 'q3-4',
+          lessonId: 'lesson-3',
           questionText: 'Khi gán `--host=0.0.0.0` lúc chạy Flask server, ý nghĩa thực tế là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Chặn hoàn toàn mọi kết nối mạng', isCorrect: false },
@@ -577,8 +577,8 @@ if __name__ == "__main__":
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q5-5',
-          lessonId: 'lesson-5',
+          id: 'q3-5',
+          lessonId: 'lesson-3',
           questionText: 'Tổ hợp phím nào dùng để ngắt (dừng) máy chủ Flask đang chạy trong cửa sổ Terminal/Command Prompt?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Ctrl + Z', isCorrect: false },

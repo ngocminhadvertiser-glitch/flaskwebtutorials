@@ -8,12 +8,12 @@ export const MODULE_4: Module = {
   icon: 'Layout',
   lessons: [
     {
-      id: 'lesson-18',
+      id: 'lesson-9',
       moduleId: 'module-4',
-      lessonNumber: 18,
-      title: 'Bài 18. render_template() và Truyền dữ liệu',
+      lessonNumber: 9,
+      title: 'Bài 9. render_template() và Truyền dữ liệu',
       slug: 'render-template-va-truyen-du-lieu',
-      orderIndex: 18,
+      orderIndex: 9,
       isPublished: true,
       objectives: [
         'Hiểu lý do tại sao không nên viết chuỗi HTML trực tiếp trong file Python',
@@ -105,8 +105,8 @@ def profile():
       },
       quizzes: [
         {
-          id: 'q18-1',
-          lessonId: 'lesson-18',
+          id: 'q9-1',
+          lessonId: 'lesson-9',
           questionText: 'Cú pháp Jinja2 nào sau đây dùng để hiển thị giá trị của một biến ra màn hình HTML?',
           options: [
             { id: 'opt-1', letter: 'A', text: '{% variable %}', isCorrect: false },
@@ -119,8 +119,8 @@ def profile():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q18-2',
-          lessonId: 'lesson-18',
+          id: 'q9-2',
+          lessonId: 'lesson-9',
           questionText: 'Nếu file HTML đặt trong thư mục `templates/admin/dashboard.html`, ta gọi hàm render_template như thế nào?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'render_template("dashboard.html")', isCorrect: false },
@@ -133,8 +133,8 @@ def profile():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q18-3',
-          lessonId: 'lesson-18',
+          id: 'q9-3',
+          lessonId: 'lesson-9',
           questionText: 'Cách truyền toàn bộ các key-value của một dictionary `data` vào template một cách ngắn gọn là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'render_template("index.html", data)', isCorrect: false },
@@ -147,8 +147,8 @@ def profile():
           difficulty: 'Vận dụng'
         },
         {
-          id: 'q18-4',
-          lessonId: 'lesson-18',
+          id: 'q9-4',
+          lessonId: 'lesson-9',
           questionText: 'Cơ chế nào của Jinja2 giúp bảo vệ trang web khỏi lỗ hổng chèn mã độc XSS khi in biến?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Tự động mã hóa ký tự đặc biệt (Auto HTML Escaping)', isCorrect: true },
@@ -161,8 +161,8 @@ def profile():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q18-5',
-          lessonId: 'lesson-18',
+          id: 'q9-5',
+          lessonId: 'lesson-9',
           questionText: 'Nếu cần hiển thị một chuỗi chứa thẻ HTML mà không muốn Jinja2 escape (ví dụ nội dung rich text), ta dùng filter nào?',
           options: [
             { id: 'opt-1', letter: 'A', text: '{{ content|raw }}', isCorrect: false },
@@ -177,12 +177,12 @@ def profile():
       ]
     },
     {
-      id: 'lesson-22',
+      id: 'lesson-10',
       moduleId: 'module-4',
-      lessonNumber: 22,
-      title: 'Bài 22. Kế thừa Template (Template Inheritance)',
+      lessonNumber: 10,
+      title: 'Bài 10. Kế thừa Template (Template Inheritance)',
       slug: 'ke-thua-template-trong-jinja2',
-      orderIndex: 22,
+      orderIndex: 10,
       isPublished: true,
       objectives: [
         'Hiểu nguyên tắc DRY (Don\'t Repeat Yourself) trong thiết kế giao diện web',
@@ -280,8 +280,8 @@ def profile():
       },
       quizzes: [
         {
-          id: 'q22-1',
-          lessonId: 'lesson-22',
+          id: 'q10-1',
+          lessonId: 'lesson-10',
           questionText: 'Thẻ Jinja2 nào được sử dụng ở đầu file template con để kế thừa giao diện từ file cha?',
           options: [
             { id: 'opt-1', letter: 'A', text: '{% inherit "base.html" %}', isCorrect: false },
@@ -294,8 +294,8 @@ def profile():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q22-2',
-          lessonId: 'lesson-22',
+          id: 'q10-2',
+          lessonId: 'lesson-10',
           questionText: 'Nếu trong template con ta muốn giữ lại toàn bộ nội dung của block cha và chỉ nối thêm nội dung mới, ta dùng hàm gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: '{{ parent_content() }}', isCorrect: false },
@@ -308,8 +308,8 @@ def profile():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q22-3',
-          lessonId: 'lesson-22',
+          id: 'q10-3',
+          lessonId: 'lesson-10',
           questionText: 'Sự khác biệt căn bản giữa `{% include %}` và `{% extends %}` là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'include chèn trực tiếp một mẩu giao diện nhỏ (như navbar/banner); extends xây dựng cấu trúc kế thừa khung sườn toàn trang', isCorrect: true },
@@ -322,8 +322,8 @@ def profile():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q22-4',
-          lessonId: 'lesson-22',
+          id: 'q10-4',
+          lessonId: 'lesson-10',
           questionText: 'Điều gì xảy ra nếu một template con KHÔNG định nghĩa lại một `{% block %}` đã có ở template cha?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Báo lỗi TemplateNotFound', isCorrect: false },
@@ -336,8 +336,8 @@ def profile():
           difficulty: 'Vận dụng'
         },
         {
-          id: 'q22-5',
-          lessonId: 'lesson-22',
+          id: 'q10-5',
+          lessonId: 'lesson-10',
           questionText: 'Một file template con có thể kế thừa từ bao nhiêu file template cha cùng lúc trong Jinja2?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Duy nhất 1 file cha (đơn kế thừa)', isCorrect: true },

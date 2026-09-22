@@ -8,12 +8,12 @@ export const MODULE_5: Module = {
   icon: 'Palette',
   lessons: [
     {
-      id: 'lesson-26',
+      id: 'lesson-11',
       moduleId: 'module-5',
-      lessonNumber: 26,
-      title: 'Bài 26. Cấu trúc thư mục static & Tích hợp Bootstrap',
+      lessonNumber: 11,
+      title: 'Bài 11. Cấu trúc thư mục static & Tích hợp Bootstrap',
       slug: 'cau-truc-static-va-tich-hop-bootstrap',
-      orderIndex: 26,
+      orderIndex: 11,
       isPublished: true,
       objectives: [
         'Hiểu quy ước tổ chức thư mục `static/` (css, js, images)',
@@ -115,8 +115,8 @@ export const MODULE_5: Module = {
       },
       quizzes: [
         {
-          id: 'q26-1',
-          lessonId: 'lesson-26',
+          id: 'q11-1',
+          lessonId: 'lesson-11',
           questionText: 'Thư mục mặc định trong dự án Flask dùng để lưu trữ file CSS, JavaScript và ảnh tên là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'assets/', isCorrect: false },
@@ -129,8 +129,8 @@ export const MODULE_5: Module = {
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q26-2',
-          lessonId: 'lesson-26',
+          id: 'q11-2',
+          lessonId: 'lesson-11',
           questionText: 'Cách nào để nạp file ảnh `logo.png` trong thư mục `static/images/` vào template HTML?',
           options: [
             { id: 'opt-1', letter: 'A', text: '<img src="{{ url_for("static", filename="images/logo.png") }}">', isCorrect: true },
@@ -143,8 +143,8 @@ export const MODULE_5: Module = {
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q26-3',
-          lessonId: 'lesson-26',
+          id: 'q11-3',
+          lessonId: 'lesson-11',
           questionText: 'Khi cập nhật nội dung file CSS trong thư mục static nhưng trình duyệt không đổi giao diện, nguyên nhân phổ biến nhất là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Trình duyệt đang lưu bộ nhớ đệm (Browser Cache) của file CSS cũ', isCorrect: true },
@@ -157,8 +157,8 @@ export const MODULE_5: Module = {
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q26-4',
-          lessonId: 'lesson-26',
+          id: 'q11-4',
+          lessonId: 'lesson-11',
           questionText: 'Để định nghĩa giao diện tương thích tốt trên thiết bị di động (Responsive), thẻ meta nào trong `<head>` là bắt buộc?',
           options: [
             { id: 'opt-1', letter: 'A', text: '<meta name="keywords">', isCorrect: false },
@@ -171,8 +171,8 @@ export const MODULE_5: Module = {
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q26-5',
-          lessonId: 'lesson-26',
+          id: 'q11-5',
+          lessonId: 'lesson-11',
           questionText: 'Class nào trong Bootstrap 5 được sử dụng để căn lề nội dung vào giữa và giới hạn độ rộng tối đa?',
           options: [
             { id: 'opt-1', letter: 'A', text: '.box-center', isCorrect: false },
@@ -197,12 +197,12 @@ export const MODULE_6: Module = {
   icon: 'CheckSquare',
   lessons: [
     {
-      id: 'lesson-33',
+      id: 'lesson-12',
       moduleId: 'module-6',
-      lessonNumber: 33,
-      title: 'Bài 33. Flash Messages trong Flask',
+      lessonNumber: 12,
+      title: 'Bài 12. Flash Messages trong Flask',
       slug: 'flash-messages-trong-flask',
-      orderIndex: 33,
+      orderIndex: 12,
       isPublished: true,
       objectives: [
         'Hiểu khái niệm Flash Message: thông báo xuất hiện 1 lần duy nhất sau một hành động',
@@ -308,8 +308,8 @@ def register():
       },
       quizzes: [
         {
-          id: 'q33-1',
-          lessonId: 'lesson-33',
+          id: 'q12-1',
+          lessonId: 'lesson-12',
           questionText: 'Hàm nào trong Flask dùng để tạo thông báo phản hồi gửi sang trang tiếp theo?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'notify()', isCorrect: false },
@@ -322,8 +322,8 @@ def register():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q33-2',
-          lessonId: 'lesson-33',
+          id: 'q12-2',
+          lessonId: 'lesson-12',
           questionText: 'Trong template Jinja2, hàm nào dùng để lấy danh sách các thông báo đã được flash?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'get_messages()', isCorrect: false },
@@ -336,8 +336,8 @@ def register():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q33-3',
-          lessonId: 'lesson-33',
+          id: 'q12-3',
+          lessonId: 'lesson-12',
           questionText: 'Đặc điểm mấu chốt của Flash Message là gì?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Lưu vĩnh viễn trong cơ sở dữ liệu', isCorrect: false },
@@ -350,8 +350,8 @@ def register():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q33-4',
-          lessonId: 'lesson-33',
+          id: 'q12-4',
+          lessonId: 'lesson-12',
           questionText: 'Để phân loại mức độ thông báo (ví dụ: thành công, cảnh báo, nguy hiểm), tham số nào được truyền vào `flash()`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'level', isCorrect: false },
@@ -364,8 +364,8 @@ def register():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q33-5',
-          lessonId: 'lesson-33',
+          id: 'q12-5',
+          lessonId: 'lesson-12',
           questionText: 'Biến `secret_key` trong Flask dùng thuật toán nào để bảo vệ dữ liệu session cookie phía client?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Ký số mật mã học HMAC (Cryptographic signing) ngăn chặn người dùng sửa nội dung cookie', isCorrect: true },

@@ -8,12 +8,12 @@ export const MODULE_7: Module = {
   icon: 'ShieldCheck',
   lessons: [
     {
-      id: 'lesson-34',
+      id: 'lesson-13',
       moduleId: 'module-7',
-      lessonNumber: 34,
-      title: 'Bài 34. Session và Cơ chế Đăng nhập',
+      lessonNumber: 13,
+      title: 'Bài 13. Session và Cơ chế Đăng nhập',
       slug: 'session-va-co-che-dang-nhap',
-      orderIndex: 34,
+      orderIndex: 13,
       isPublished: true,
       objectives: [
         'Hiểu bản chất phi trạng thái (Stateless) của giao thức HTTP',
@@ -115,8 +115,8 @@ def dashboard():
       },
       quizzes: [
         {
-          id: 'q34-1',
-          lessonId: 'lesson-34',
+          id: 'q13-1',
+          lessonId: 'lesson-13',
           questionText: 'Mặc định trong Flask, dữ liệu session được lưu trữ ở đâu?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Bảng cơ sở dữ liệu MySQL trên server', isCorrect: false },
@@ -129,8 +129,8 @@ def dashboard():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q34-2',
-          lessonId: 'lesson-34',
+          id: 'q13-2',
+          lessonId: 'lesson-13',
           questionText: 'Người dùng có thể đọc được nội dung dữ liệu lưu trong cookie session mặc định của Flask không?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Không, vì được mã hóa bí mật cấp quân sự', isCorrect: false },
@@ -143,8 +143,8 @@ def dashboard():
           difficulty: 'Vận dụng'
         },
         {
-          id: 'q34-3',
-          lessonId: 'lesson-34',
+          id: 'q13-3',
+          lessonId: 'lesson-13',
           questionText: 'Để xóa một biến cụ thể ra khỏi session (ví dụ xóa "cart_id"), hàm nào là an toàn nhất?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'session.remove("cart_id")', isCorrect: false },
@@ -157,8 +157,8 @@ def dashboard():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q34-4',
-          lessonId: 'lesson-34',
+          id: 'q13-4',
+          lessonId: 'lesson-13',
           questionText: 'Để làm cho phiên đăng nhập duy trì ngay cả khi tắt trình duyệt (Persistent Session), ta thiết lập cấu hình nào?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'session.permanent = True', isCorrect: true },
@@ -171,8 +171,8 @@ def dashboard():
           difficulty: 'Vận dụng'
         },
         {
-          id: 'q34-5',
-          lessonId: 'lesson-34',
+          id: 'q13-5',
+          lessonId: 'lesson-13',
           questionText: 'Thư viện nào phổ biến trong Python dùng để hash (băm mật khẩu) an toàn trước khi lưu trữ?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'werkzeug.security (generate_password_hash)', isCorrect: true },
@@ -197,12 +197,12 @@ export const MODULE_8: Module = {
   icon: 'Database',
   lessons: [
     {
-      id: 'lesson-42',
+      id: 'lesson-14',
       moduleId: 'module-8',
-      lessonNumber: 42,
-      title: 'Bài 42. Khởi tạo SQLAlchemy và Định nghĩa Model',
+      lessonNumber: 14,
+      title: 'Bài 14. Khởi tạo SQLAlchemy và Định nghĩa Model',
       slug: 'khoi-tao-sqlalchemy-va-dinh-nghia-model',
-      orderIndex: 42,
+      orderIndex: 14,
       isPublished: true,
       objectives: [
         'Hiểu khái niệm ORM (Object-Relational Mapping): ánh xạ bảng DB thành class Python',
@@ -315,8 +315,8 @@ with app.app_context():
       },
       quizzes: [
         {
-          id: 'q42-1',
-          lessonId: 'lesson-42',
+          id: 'q14-1',
+          lessonId: 'lesson-14',
           questionText: 'Khái niệm ORM (Object-Relational Mapping) mang lại lợi ích gì cho lập trình viên?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Giúp tự động vẽ biểu đồ hình ảnh', isCorrect: false },
@@ -329,8 +329,8 @@ with app.app_context():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q42-2',
-          lessonId: 'lesson-42',
+          id: 'q14-2',
+          lessonId: 'lesson-14',
           questionText: 'Chuỗi kết nối nào sau đây cấu hình cơ sở dữ liệu SQLite lưu trong thư mục instance của Flask?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'mysql://localhost/db', isCorrect: false },
@@ -343,8 +343,8 @@ with app.app_context():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q42-3',
-          lessonId: 'lesson-42',
+          id: 'q14-3',
+          lessonId: 'lesson-14',
           questionText: 'Để định nghĩa một cột khóa chính tự động tăng trong SQLAlchemy, tham số nào được gán bằng `True`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'primary_key=True', isCorrect: true },
@@ -357,8 +357,8 @@ with app.app_context():
           difficulty: 'Nhận biết'
         },
         {
-          id: 'q42-4',
-          lessonId: 'lesson-42',
+          id: 'q14-4',
+          lessonId: 'lesson-14',
           questionText: 'Tại sao từ Flask 2.3+ ta phải bọc `db.create_all()` bên trong khối `with app.app_context():`?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'Vì SQLAlchemy cần truy cập cấu hình của Flask app đang hoạt động', isCorrect: true },
@@ -371,8 +371,8 @@ with app.app_context():
           difficulty: 'Thông hiểu'
         },
         {
-          id: 'q42-5',
-          lessonId: 'lesson-42',
+          id: 'q14-5',
+          lessonId: 'lesson-14',
           questionText: 'Để thêm một bản ghi sinh viên mới vào cơ sở dữ liệu và lưu lại vĩnh viễn, cặp lệnh nào là chuẩn xác?',
           options: [
             { id: 'opt-1', letter: 'A', text: 'db.session.add(sv) và db.session.commit()', isCorrect: true },
