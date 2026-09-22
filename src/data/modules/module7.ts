@@ -85,7 +85,7 @@ def logout():
         ]
       },
       quickCheck: {
-        id: 'qc-34',
+        id: 'qc-13',
         question: 'Đối tượng `session` trong Flask có cú pháp thao tác giống kiểu dữ liệu nào trong Python?',
         options: [
           { letter: 'A', text: 'Giống kiểu List' },
@@ -97,7 +97,7 @@ def logout():
         explanation: 'Chính xác! session hỗ trợ các phương thức như session["key"], session.get(), session.pop(), session.clear() hệt như một Python dict.'
       },
       practice: {
-        id: 'prac-34',
+        id: 'prac-13',
         title: 'Bảo vệ Route Dashboard bằng kiểm tra Session',
         taskDescription: 'Viết view function /dashboard kiểm tra nếu chưa đăng nhập thì redirect về /login, nếu đã đăng nhập thì chào mừng.',
         requirements: [
@@ -285,7 +285,7 @@ with app.app_context():
         ]
       },
       quickCheck: {
-        id: 'qc-42',
+        id: 'qc-14',
         question: 'Lệnh nào của SQLAlchemy dùng để tự động tạo tất cả các bảng đã khai báo trong code?',
         options: [
           { letter: 'A', text: 'db.make_tables()' },
@@ -297,7 +297,7 @@ with app.app_context():
         explanation: 'Chính xác! `db.create_all()` quét qua tất cả các lớp kế thừa từ db.Model và phát lệnh CREATE TABLE tương ứng.'
       },
       practice: {
-        id: 'prac-42',
+        id: 'prac-14',
         title: 'Thêm Model Lớp Học (ClassRoom)',
         taskDescription: 'Tạo thêm Model ClassRoom có id, class_code, major và quan hệ 1-N với Student.',
         requirements: [

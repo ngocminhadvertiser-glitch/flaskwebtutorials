@@ -83,7 +83,7 @@ export const MODULE_5: Module = {
         ]
       },
       quickCheck: {
-        id: 'qc-26',
+        id: 'qc-11',
         question: 'Tại sao nên dùng `url_for("static", filename="...")` thay vì viết cứng `/static/...`?',
         options: [
           { letter: 'A', text: 'Giúp tự động xử lý tiền tố URL, hỗ trợ caching và tương thích khi đổi cấu hình host/sub-path' },
@@ -95,7 +95,7 @@ export const MODULE_5: Module = {
         explanation: 'Chính xác! url_for đảm bảo tính linh hoạt khi triển khai ứng dụng trên máy chủ hoặc reverse proxy Nginx.'
       },
       practice: {
-        id: 'prac-26',
+        id: 'prac-11',
         title: 'Thiết kế Card thông tin khóa học bằng Bootstrap 5',
         taskDescription: 'Sử dụng Bootstrap Card để tạo thẻ hiển thị môn học với ảnh đại diện, tiêu đề và nút đăng ký.',
         requirements: [
@@ -272,7 +272,7 @@ def register():
         ]
       },
       quickCheck: {
-        id: 'qc-33',
+        id: 'qc-12',
         question: 'Nếu chưa cấu hình `app.secret_key` mà gọi hàm `flash()`, ứng dụng sẽ bị lỗi gì?',
         options: [
           { letter: 'A', text: 'Chạy bình thường không báo lỗi' },
@@ -284,7 +284,7 @@ def register():
         explanation: 'Chính xác! Flash dùng session bên dưới, nên bắt buộc phải có secret_key.'
       },
       practice: {
-        id: 'prac-33',
+        id: 'prac-12',
         title: 'Hiển thị Flash Messages trong Base Template',
         taskDescription: 'Viết khối mã Jinja2 trong base.html để tự động hiển thị mọi flash message với Bootstrap Alert.',
         requirements: [

@@ -74,7 +74,7 @@ def profile():
         ]
       },
       quickCheck: {
-        id: 'qc-18',
+        id: 'qc-9',
         question: 'Trong Flask, các file giao diện HTML mặc định phải được đặt ở thư mục nào?',
         options: [
           { letter: 'A', text: 'thư mục views/' },
@@ -86,7 +86,7 @@ def profile():
         explanation: 'Chính xác! Thư mục chuẩn mặc định của Flask là `templates/`.'
       },
       practice: {
-        id: 'prac-18',
+        id: 'prac-9',
         title: 'Hiển thị Thẻ Sinh Viên qua Template',
         taskDescription: 'Tạo route /card và template card.html hiển thị thông tin sinh viên đẹp mắt.',
         requirements: [
@@ -240,7 +240,7 @@ def profile():
         ]
       },
       quickCheck: {
-        id: 'qc-22',
+        id: 'qc-10',
         question: 'Lệnh `{% extends "base.html" %}` phải nằm ở vị trí nào trong file template con?',
         options: [
           { letter: 'A', text: 'Ở cuối cùng của file' },
@@ -252,7 +252,7 @@ def profile():
         explanation: 'Chính xác! Jinja2 yêu cầu thẻ extends phải là câu lệnh template đầu tiên trong file con để xác định cây thừa kế.'
       },
       practice: {
-        id: 'prac-22',
+        id: 'prac-10',
         title: 'Tổ chức Base Template chuẩn cho Dự án',
         taskDescription: 'Tạo file base.html chuẩn gồm thẻ head, navbar, container cho content và footer.',
         requirements: [

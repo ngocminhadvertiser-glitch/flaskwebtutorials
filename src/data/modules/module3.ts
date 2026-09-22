@@ -76,7 +76,7 @@ def search():
         ]
       },
       quickCheck: {
-        id: 'qc-11',
+        id: 'qc-7',
         question: 'Tại sao nên dùng `request.args.get("key")` thay vì `request.args["key"]`?',
         options: [
           { letter: 'A', text: 'Vì `.get()` tránh được lỗi sập server (KeyError) nếu người dùng không truyền param đó' },
@@ -88,7 +88,7 @@ def search():
         explanation: 'Chính xác! Truy cập trực tiếp bằng ngoặc vuông [] sẽ gây ra lỗi 400 Bad Request / KeyError nếu key không tồn tại.'
       },
       practice: {
-        id: 'prac-11',
+        id: 'prac-7',
         title: 'Xây dựng Bộ lọc sinh viên theo Ngành và Năm học',
         taskDescription: 'Tạo route /students nhận tham số `major` (mặc định "CNTT") và `year` (mặc định 2026).',
         requirements: [
@@ -264,7 +264,7 @@ def login():
         ]
       },
       quickCheck: {
-        id: 'qc-16',
+        id: 'qc-8',
         question: 'Nếu trong @app.route("/submit") không khai báo tham số methods, Flask mặc định chỉ nhận phương thức nào?',
         options: [
           { letter: 'A', text: 'Nhận cả GET và POST' },
@@ -276,7 +276,7 @@ def login():
         explanation: 'Chính xác! Mặc định decorator @app.route chỉ chấp nhận phương thức GET. Truy cập bằng POST sẽ nhận lỗi 405 Method Not Allowed.'
       },
       practice: {
-        id: 'prac-16',
+        id: 'prac-8',
         title: 'Xây dựng Form Phản hồi sinh viên (Feedback)',
         taskDescription: 'Tạo route /feedback hỗ trợ GET để nhập đánh giá môn học và POST để ghi nhận phản hồi.',
         requirements: [

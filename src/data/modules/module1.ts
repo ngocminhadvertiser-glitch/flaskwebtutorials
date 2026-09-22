@@ -287,7 +287,7 @@ if __name__ == "__main__":
         ]
       },
       quickCheck: {
-        id: 'qc-4',
+        id: 'qc-2',
         question: 'Tham số __name__ truyền vào hàm khởi tạo Flask(__name__) có tác dụng chính là gì?',
         options: [
           { letter: 'A', text: 'Đặt tên hiển thị trên thanh tiêu đề của trình duyệt' },
@@ -299,7 +299,7 @@ if __name__ == "__main__":
         explanation: 'Chính xác! Flask cần biết module gốc ở đâu trong hệ thống file để tự động tìm thư mục chứa giao diện và tài nguyên tĩnh.'
       },
       practice: {
-        id: 'prac-4',
+        id: 'prac-2',
         title: 'Xây dựng trang Web "Hello Student" và trang "/about"',
         taskDescription: 'Tạo một ứng dụng Flask nhỏ với 2 trang web theo yêu cầu chuẩn đầu ra nghề nghiệp.',
         requirements: [
@@ -481,7 +481,7 @@ flask run --host=0.0.0.0 --port=5000`
         ]
       },
       quickCheck: {
-        id: 'qc-5',
+        id: 'qc-3',
         question: 'Cổng mặc định mà máy chủ phát triển Flask lắng nghe là cổng nào?',
         options: [
           { letter: 'A', text: 'Cổng 80' },
@@ -493,7 +493,7 @@ flask run --host=0.0.0.0 --port=5000`
         explanation: 'Chính xác! Flask mặc định sử dụng port 5000 (http://127.0.0.1:5000).'
       },
       practice: {
-        id: 'prac-5',
+        id: 'prac-3',
         title: 'Cấu hình và khởi chạy Flask CLI',
         taskDescription: 'Thực hành khai báo biến môi trường và chạy ứng dụng ở một cổng tùy chỉnh.',
         requirements: [

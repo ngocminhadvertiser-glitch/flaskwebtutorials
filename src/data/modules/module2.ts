@@ -74,7 +74,7 @@ def projects():
         ]
       },
       quickCheck: {
-        id: 'qc-6',
+        id: 'qc-4',
         question: 'Có thể gắn nhiều decorator @app.route() lên cùng một hàm Python được không?',
         options: [
           { letter: 'A', text: 'Hoàn toàn được, giúp nhiều URL dẫn đến cùng một trang' },
@@ -86,7 +86,7 @@ def projects():
         explanation: 'Hoàn toàn được! Bạn có thể khai báo bao nhiêu route tùy thích phía trên một view function.'
       },
       practice: {
-        id: 'prac-6',
+        id: 'prac-4',
         title: 'Tạo hệ thống Menu Route cơ bản',
         taskDescription: 'Tạo các route: trang chủ, tin tức (/news), và liên hệ (/contact).',
         requirements: [
@@ -253,7 +253,7 @@ def show_student(student_id):
         ]
       },
       quickCheck: {
-        id: 'qc-7',
+        id: 'qc-5',
         question: 'Nếu người dùng truy cập /student/flask_hoc khi route là @app.route("/student/<int:id>"), chuyện gì xảy ra?',
         options: [
           { letter: 'A', text: 'Server báo lỗi 500 Crash' },
@@ -265,7 +265,7 @@ def show_student(student_id):
         explanation: 'Chính xác! URL converter hoạt động như một bộ lọc validation. Nếu dữ liệu không thỏa mãn, Flask coi như không tìm thấy route (404).'
       },
       practice: {
-        id: 'prac-7',
+        id: 'prac-5',
         title: 'Xây dựng Route tra cứu Điểm sinh viên',
         taskDescription: 'Tạo route /score/<string:name>/<float:grade> để hiển thị xếp loại.',
         requirements: [
@@ -423,7 +423,7 @@ def show_user(username):
         ]
       },
       quickCheck: {
-        id: 'qc-9',
+        id: 'qc-6',
         question: 'Đối số đầu tiên truyền vào hàm url_for() là gì?',
         options: [
           { letter: 'A', text: 'Đường dẫn URL ví dụ "/user/detail"' },
@@ -435,7 +435,7 @@ def show_user(username):
         explanation: 'Chính xác! url_for nhận tên của hàm Python (endpoint name), sau đó tra cứu ngược ra URL tương ứng.'
       },
       practice: {
-        id: 'prac-9',
+        id: 'prac-6',
         title: 'Tạo thanh điều hướng động bằng url_for()',
         taskDescription: 'Viết view function trang chủ sinh ra menu gồm liên kết tới trang chủ và trang sinh viên với ID=123.',
         requirements: [

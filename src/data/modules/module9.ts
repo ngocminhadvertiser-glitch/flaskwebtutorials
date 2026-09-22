@@ -74,7 +74,7 @@ def register():
         ]
       },
       quickCheck: {
-        id: 'qc-48',
+        id: 'qc-15',
         question: 'Khi đăng ký Blueprint `auth` với `url_prefix="/auth"`, muốn gọi url_for tới hàm `login`, ta viết như thế nào?',
         options: [
           { letter: 'A', text: 'url_for("login")' },
@@ -86,7 +86,7 @@ def register():
         explanation: 'Chính xác! Khi dùng Blueprint, endpoint name được định danh theo định dạng `<blueprint_name>.<view_function_name>` (ví dụ: `auth.login`).'
       },
       practice: {
-        id: 'prac-48',
+        id: 'prac-15',
         title: 'Tạo Admin Blueprint có url_prefix="/admin"',
         taskDescription: 'Tạo Blueprint `admin_bp` và đăng ký vào ứng dụng với 2 trang: /admin/ và /admin/users.',
         requirements: [
@@ -287,7 +287,7 @@ def create_student():
         ]
       },
       quickCheck: {
-        id: 'qc-53',
+        id: 'qc-16',
         question: 'Để đọc dữ liệu JSON gửi lên từ client trong Flask, ta dùng phương thức nào?',
         options: [
           { letter: 'A', text: 'request.form.get()' },
@@ -299,7 +299,7 @@ def create_student():
         explanation: 'Chính xác! `request.get_json()` tự động kiểm tra header Content-Type và phân tích chuỗi JSON thành Python Dict.'
       },
       practice: {
-        id: 'prac-53',
+        id: 'prac-16',
         title: 'Xây dựng API Tra cứu Sinh viên theo ID (GET /api/students/<id>)',
         taskDescription: 'Viết endpoint trả về thông tin chi tiết của 1 sinh viên. Nếu không tìm thấy, trả về lỗi 404 với JSON thông báo.',
         requirements: [
